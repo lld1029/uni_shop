@@ -1,0 +1,1 @@
+<view class="data-v-e99db136"><view class="box data-v-e99db136"><block wx:for="{{tabsArr}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view data-event-opts="{{[['tap',[['activeClick',[index]]]]]}}" class="{{['data-v-e99db136',item.isActive?'active tabs':'tabs']}}" bindtap="__e">{{''+item.name+''}}</view></block></view><slot></slot></view>

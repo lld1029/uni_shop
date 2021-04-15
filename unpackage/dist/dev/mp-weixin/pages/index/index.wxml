@@ -1,0 +1,1 @@
+<view><search-input vue-id="8dd740cc-1" bind:__l="__l"></search-input><my-swiper vue-id="8dd740cc-2" bind:__l="__l"></my-swiper><my-nav vue-id="8dd740cc-3" bind:__l="__l"></my-nav><view class="hot_goods"><view class="title">推荐商品</view></view><my-floor vue-id="8dd740cc-4" bind:__l="__l"></my-floor></view>

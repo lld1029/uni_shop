@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商城项目",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search-input": "/components/SearchInput"
+  }
+}

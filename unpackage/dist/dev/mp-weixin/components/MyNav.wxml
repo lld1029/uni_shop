@@ -1,0 +1,1 @@
+<view class="data-v-0a241c0c"><view class="nav data-v-0a241c0c"><block wx:for="{{navList}}" wx:for-item="item" wx:for-index="__i0__"><view class="nav_item data-v-0a241c0c"><image src="{{item.image_src}}" mode="widthFix" class="data-v-0a241c0c"></image></view></block></view></view>

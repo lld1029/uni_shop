@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index"
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "商城项目",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods_list/goods_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods_detail/goods_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/query/query",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni商城项目",
+		"navigationBarBackgroundColor": "#55557f",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#c50202",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/icon/home.png",
+	        "selectedIconPath": "static/icon/home-active.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/news/news",
+	        "iconPath": "static/icon/news.png",
+	        "selectedIconPath": "static/icon/news-active.png",
+	        "text": "咨询"
+	    },{
+	        "pagePath": "pages/cart/cart",
+	        "iconPath": "static/icon/cart.png",
+	        "selectedIconPath": "./static/icon/cart-active.png",
+	        "text": "购物车"
+	    },{
+	        "pagePath": "pages/member/member",
+	        "iconPath": "static/icon/member.png",
+	        "selectedIconPath": "./static/icon/member-active.png",
+	        "text": "会员"
+	    }]
+	}
+}

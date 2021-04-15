@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/search/search",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/pay/pay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni商城项目",
+    "navigationBarBackgroundColor": "#55557f",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#c50202",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "./static/icon/cart-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "./static/icon/member-active.png",
+        "text": "会员"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

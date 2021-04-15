@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "search-input": "/components/SearchInput",
+    "my-tabs": "/components/MyTabs",
+    "my-goods-list": "/components/MyGoodsList"
+  }
+}
